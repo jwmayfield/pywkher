@@ -7,7 +7,7 @@ dist
 build
 eggs
 parts
-bin
+./bin
 var
 sdist
 develop-eggs
@@ -20,8 +20,11 @@ pip-log.txt
 .coverage
 .tox
 
-#Translations
+# Translations
 *.mo
 
-#Mr Developer
+# Mr Developer
 .mr.developer.cfg
+
+# Mac OS X Finder
+.DS_Store
