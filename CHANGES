@@ -2,3 +2,4 @@ v1.0.0, 8/26/2012 -- Initial release.
 v1.0.1, 5/25/2013 -- Fix issue with binary installation.
 v1.0.2, 5/25/2013 -- Update default command.
 v1.0.3, 5/25/2013 -- Create package manifest.
+v1.0.4, 5/25/2013 -- Don't automatically delete temp files, to make sure they're available to return.
