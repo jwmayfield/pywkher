@@ -12,9 +12,6 @@ def generate_pdf(html='', url=''):
 
     wkhtmltopdf_default = 'wkhtmltopdf-heroku'
 
-    # Make sure wkhtmltopdf-heroku is executable
-    chmod(wkhtmltopdf_default, 0755)
-
     # Reference command
     wkhtmltopdf_cmd = environ.get('WKHTMLTOPDF_CMD', wkhtmltopdf_default)
 
