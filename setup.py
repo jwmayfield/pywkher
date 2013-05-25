@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='pywkher',
-    version='1.0.1',
+    version='1.0.2',
     url='https://github.com/codetalkrs/pywkher',
     author='Jason Mayfield',
     author_email='jason@codetalk.rs',
@@ -11,7 +11,7 @@ setup(
     description='wkhtmltopdf for Python on Heroku',
     long_description=open('README.rst').read(),
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
