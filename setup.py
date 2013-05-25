@@ -2,12 +2,12 @@ from setuptools import setup
 
 setup(
     name='pywkher',
-    version='1.0.0',
+    version='1.0.1',
     url='https://github.com/codetalkrs/pywkher',
     author='Jason Mayfield',
     author_email='jason@codetalk.rs',
     packages=['pywkher', ],
-    package_data={'pywkher': ['bin/wkhtmltopdf-heroku']},
+    scripts=['bin/wkhtmltopdf-heroku'],
     description='wkhtmltopdf for Python on Heroku',
     long_description=open('README.rst').read(),
     classifiers=[
