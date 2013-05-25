@@ -10,9 +10,7 @@ def generate_pdf(html='', url=''):
     if html and url:
         raise ValueError('Must pass HTML or specify a URL, not both')
 
-    wkhtmltopdf_default = (
-            os_path.abspath(os_path.split(__file__)[0]) +
-            '/bin/wkhtmltopdf-heroku')
+    wkhtmltopdf_default = 'wkhtmltopdf-heroku'
 
     # Make sure wkhtmltopdf-heroku is executable
     chmod(wkhtmltopdf_default, 0755)
